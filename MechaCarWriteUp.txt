@@ -1,0 +1,20 @@
+Challenge
+
+MPG Regression
+
+-Accoring to the linear regression model of the mechacar_mpg dataset, vehicle length and ground clearance appear to provide a non-random amount of variance to MPG. AWD was not included in this linear regression model because the value provided is a categorical true/false value, not a measured value.
+-The slope is not considered to be zero because the p-value is below the .05 significance level at 2.277e11
+-The multiple rsquared value is .71, which means the model will predict mpg roughly 71% of the time, making it an effective model.
+
+Suspenion Coil Summary
+Design specifications dictate a variance of the suspension coils must not exceed 100 pounds per inch. Overall, the lots combined are do achieve the specifications however when looked at indvidually, Lot 3 exceeds the specifications at 170 pounds per inch.
+
+Suspenion Coil T-Test
+The one sample t-test p-value for Lots 1 and 2 were above the significance level indicating they are not statiscally different form the population mean. Lot 3 however was lower at .04 indicating it is statistically different from the population.
+
+Mecha Performance Study
+-Consumers would likely be interested in cost, fuel efficiency, horsepower when considering the performance of a car. 
+-One comparison to make in this determination would be the horsepower the MechaCar to other comparable vehicles. 
+    The null hypothesis being there is no statistical difference in the mean horsepower of the ehicle and the alternative hypothesis being there is. 
+    A one sample t-test would be the test to use to determine this. 
+-We would also need to collect the horsepower data from several different vehicles manufacturers.
