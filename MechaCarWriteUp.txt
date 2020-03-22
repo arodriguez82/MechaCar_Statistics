@@ -4,7 +4,7 @@ MPG Regression
 
 -Accoring to the linear regression model of the mechacar_mpg dataset, vehicle length and ground clearance appear to provide a non-random amount of variance to MPG. AWD was not included in this linear regression model because the value provided is a categorical true/false value, not a measured value.
 -The slope is not considered to be zero because the p-value is below the .05 significance level at 2.277e11
--The multiple rsquared value is .71, which means the model will predict mpg roughly 71% of the time, making it an effective model.
+-The multiple rsquared value is .70, which means the model will predict mpg roughly 70% of the time, making it an effective model.
 
 Suspenion Coil Summary
 Design specifications dictate a variance of the suspension coils must not exceed 100 pounds per inch. Overall, the lots combined are do achieve the specifications however when looked at indvidually, Lot 3 exceeds the specifications at 170 pounds per inch.
